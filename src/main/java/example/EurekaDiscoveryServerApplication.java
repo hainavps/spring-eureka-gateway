@@ -1,16 +1,16 @@
-package com.example.eurekaservicemicroserviceserver;
+package example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
 @EnableEurekaServer
-public class EurekaServiceMicroserviceServerApplication {
+public class EurekaDiscoveryServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EurekaServiceMicroserviceServerApplication.class, args);
+        System.out.println("welcome to the jar..");
+        SpringApplication.run(EurekaDiscoveryServerApplication.class, args);
     }
 
 }
